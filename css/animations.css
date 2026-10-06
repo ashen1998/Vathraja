@@ -1,0 +1,77 @@
+/* ==========================================================================
+   Vathraja Facial Chambers — Animation support styles
+   Works with /js/animations.js (Motion — motion.dev, vanilla build).
+
+   Pre-animation states are scoped to .js so that if JavaScript fails to load,
+   every element still renders fully visible. Nothing on this site is
+   animation-dependent for reading.
+   ========================================================================== */
+
+/* Pre-reveal state — Motion animates these to their resting values */
+.js [data-reveal] { opacity: 0; will-change: opacity, transform; }
+.js [data-reveal="up"]    { transform: translateY(26px); }
+.js [data-reveal="down"]  { transform: translateY(-20px); }
+.js [data-reveal="left"]  { transform: translateX(28px); }
+.js [data-reveal="right"] { transform: translateX(-28px); }
+.js [data-reveal="fade"]  { transform: none; }
+.js [data-reveal="scale"] { transform: scale(.965); }
+
+/* Children of a staggered group */
+.js [data-stagger] > * { opacity: 0; transform: translateY(22px); will-change: opacity, transform; }
+
+/* Once revealed, drop the compositing hint */
+.is-revealed { will-change: auto !important; }
+
+/* Page-load veil: a calm, unhurried fade rather than a flashy transition */
+.page-veil {
+  position: fixed; inset: 0; z-index: 300;
+  background: var(--c-white);
+  pointer-events: none;
+}
+.page-veil.is-gone { display: none; }
+
+/* Hero entrance elements are handled directly by Motion */
+.js .hero__title,
+.js .hero__copy,
+.js .hero__actions,
+.js .hero__eyebrow,
+.js .hero__media,
+.js .hero__chip { opacity: 0; }
+
+/* Mobile drawer + scrim are positioned by CSS, animated by Motion */
+.mobile-nav, .nav-scrim { will-change: transform, opacity; }
+
+/* Accordion panels are height-animated by Motion; overflow already hidden */
+.acc-panel { will-change: height, opacity; }
+
+/* Small, tasteful hover lift used on non-JS-driven elements */
+@media (hover: hover) {
+  .lift { transition: transform .3s var(--ease), box-shadow .3s var(--ease); }
+  .lift:hover { transform: translateY(-3px); }
+}
+
+/* --------------------------------------------------------------------------
+   Reduced motion — honour the user's system setting everywhere.
+   All pre-animation states are neutralised so content is simply present.
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .js [data-reveal],
+  .js [data-stagger] > *,
+  .js .hero__title,
+  .js .hero__copy,
+  .js .hero__actions,
+  .js .hero__eyebrow,
+  .js .hero__media,
+  .js .hero__chip {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .page-veil { display: none !important; }
+
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
