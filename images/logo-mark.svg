@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Vathraja Facial Chambers logo placeholder">
+  <!-- PLACEHOLDER LOGO MARK — replace with the supplied brand asset -->
+  <path d="M32 4c11 6 17 14 17 24 0 13-7.6 23.5-17 32C22.6 51.5 15 41 15 28 15 18 21 10 32 4Z"
+        fill="none" stroke="#7A6AC0" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M24 24.5 32 42l8-17.5" fill="none" stroke="#45397A" stroke-width="3.4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
