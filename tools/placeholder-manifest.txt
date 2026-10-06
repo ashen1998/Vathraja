@@ -1,0 +1,105 @@
+blog-aftercare|1200|750|369|20|#574896|1|0|Article image
+blog-aftercare|1200|750|395|13|#7A7498|0|0|Aftercare guidance
+blog-aftercare|1200|750|728|11|#BFB4E4|0|3|PLACEHOLDER IMAGE
+blog-diagnosis|1200|750|369|20|#574896|1|0|Article image
+blog-diagnosis|1200|750|395|13|#7A7498|0|0|Diagnosis-first skin care
+blog-diagnosis|1200|750|728|11|#BFB4E4|0|3|PLACEHOLDER IMAGE
+blog-difference|1200|750|369|20|#574896|1|0|Article image
+blog-difference|1200|750|395|13|#7A7498|0|0|Dermatology vs aesthetics
+blog-difference|1200|750|728|11|#BFB4E4|0|3|PLACEHOLDER IMAGE
+blog-natural|1200|750|369|20|#574896|1|0|Article image
+blog-natural|1200|750|395|13|#7A7498|0|0|Natural facial aesthetics
+blog-natural|1200|750|728|11|#BFB4E4|0|3|PLACEHOLDER IMAGE
+blog-wedding|1200|750|369|20|#574896|1|0|Article image
+blog-wedding|1200|750|395|13|#7A7498|0|0|Pre-wedding planning
+blog-wedding|1200|750|728|11|#BFB4E4|0|3|PLACEHOLDER IMAGE
+clinic-environment|1200|800|394|20|#574896|1|0|Clinic environment
+clinic-environment|1200|800|420|13|#7A7498|0|0|One Galle Face, Colombo
+clinic-environment|1200|800|778|11|#BFB4E4|0|3|PLACEHOLDER IMAGE
+consultation-room|1200|800|394|20|#574896|1|0|Consultation room
+consultation-room|1200|800|420|13|#7A7498|0|0|Assessment and planning
+consultation-room|1200|800|778|11|#BFB4E4|0|3|PLACEHOLDER IMAGE
+face-and-smile|1200|800|394|20|#574896|1|0|Face and smile
+face-and-smile|1200|800|420|13|#7A7498|0|0|Danthaja + Vathraja planning
+face-and-smile|1200|800|778|11|#BFB4E4|0|3|PLACEHOLDER IMAGE
+gallery-consultation-1|1200|900|446|30|#574896|1|0|Consultation room
+gallery-consultation-1|1200|900|478|19|#7A7498|0|0|Assessment and planning
+gallery-consultation-1|1200|900|872|15|#BFB4E4|0|4|PLACEHOLDER IMAGE
+gallery-consultation-2|900|1200|596|30|#574896|1|0|Consultation desk
+gallery-consultation-2|900|1200|628|19|#7A7498|0|0|Discussing your plan
+gallery-consultation-2|900|1200|1172|15|#BFB4E4|0|4|PLACEHOLDER IMAGE
+gallery-consultation-3|1200|900|446|30|#574896|1|0|Planning room
+gallery-consultation-3|1200|900|478|19|#7A7498|0|0|Face and smile planning
+gallery-consultation-3|1200|900|872|15|#BFB4E4|0|4|PLACEHOLDER IMAGE
+gallery-corridor|1200|900|446|30|#574896|1|0|Corridor
+gallery-corridor|1200|900|478|19|#7A7498|0|0|Between the chambers
+gallery-corridor|1200|900|872|15|#BFB4E4|0|4|PLACEHOLDER IMAGE
+gallery-dermatology-suite|1200|900|446|30|#574896|1|0|Dermatology suite
+gallery-dermatology-suite|1200|900|478|19|#7A7498|0|0|Skin assessment
+gallery-dermatology-suite|1200|900|872|15|#BFB4E4|0|4|PLACEHOLDER IMAGE
+gallery-detail-instruments|1000|1000|496|30|#574896|1|0|Detail
+gallery-detail-instruments|1000|1000|528|19|#7A7498|0|0|Prepared instruments
+gallery-detail-instruments|1000|1000|972|15|#BFB4E4|0|4|PLACEHOLDER IMAGE
+gallery-detail-materials|1000|1000|496|30|#574896|1|0|Detail
+gallery-detail-materials|1000|1000|528|19|#7A7498|0|0|Materials and finishes
+gallery-detail-materials|1000|1000|972|15|#BFB4E4|0|4|PLACEHOLDER IMAGE
+gallery-entrance|1200|900|446|30|#574896|1|0|Entrance
+gallery-entrance|1200|900|478|19|#7A7498|0|0|One Galle Face
+gallery-entrance|1200|900|872|15|#BFB4E4|0|4|PLACEHOLDER IMAGE
+gallery-reception|1200|900|446|30|#574896|1|0|Reception
+gallery-reception|1200|900|478|19|#7A7498|0|0|Arrival and check-in
+gallery-reception|1200|900|872|15|#BFB4E4|0|4|PLACEHOLDER IMAGE
+gallery-treatment-1|1200|900|446|30|#574896|1|0|Treatment room
+gallery-treatment-1|1200|900|478|19|#7A7498|0|0|Clinical standards
+gallery-treatment-1|1200|900|872|15|#BFB4E4|0|4|PLACEHOLDER IMAGE
+gallery-treatment-2|900|1200|596|30|#574896|1|0|Treatment room
+gallery-treatment-2|900|1200|628|19|#7A7498|0|0|Prepared and private
+gallery-treatment-2|900|1200|1172|15|#BFB4E4|0|4|PLACEHOLDER IMAGE
+gallery-waiting-area|900|1200|596|30|#574896|1|0|Waiting area
+gallery-waiting-area|900|1200|628|19|#7A7498|0|0|Private and unhurried
+gallery-waiting-area|900|1200|1172|15|#BFB4E4|0|4|PLACEHOLDER IMAGE
+hero-slide-1|900|1100|544|34|#574896|1|0|Specialist consultation
+hero-slide-1|900|1100|580|22|#7A7498|0|0|Assessment before treatment
+hero-slide-1|900|1100|1066|18|#BFB4E4|0|4|PLACEHOLDER IMAGE
+hero-slide-2|900|1100|544|34|#574896|1|0|Dermatology
+hero-slide-2|900|1100|580|22|#7A7498|0|0|Diagnosis-first skin health
+hero-slide-2|900|1100|1066|18|#BFB4E4|0|4|PLACEHOLDER IMAGE
+hero-slide-3|900|1100|544|34|#574896|1|0|Facial balance
+hero-slide-3|900|1100|580|22|#7A7498|0|0|Anatomy-led planning
+hero-slide-3|900|1100|1066|18|#BFB4E4|0|4|PLACEHOLDER IMAGE
+hero-slide-4|900|1100|544|34|#574896|1|0|The chambers
+hero-slide-4|900|1100|580|22|#7A7498|0|0|One Galle Face, Colombo
+hero-slide-4|900|1100|1066|18|#BFB4E4|0|4|PLACEHOLDER IMAGE
+journey-01-consultation|800|600|298|34|#574896|1|0|Stage 01
+journey-01-consultation|800|600|332|22|#7A7498|0|0|The consultation room
+journey-01-consultation|800|600|574|16|#BFB4E4|0|4|PLACEHOLDER
+journey-02-assessment|800|600|298|34|#574896|1|0|Stage 02
+journey-02-assessment|800|600|332|22|#7A7498|0|0|Assessment and diagnosis
+journey-02-assessment|800|600|574|16|#BFB4E4|0|4|PLACEHOLDER
+journey-03-planning|800|600|298|34|#574896|1|0|Stage 03
+journey-03-planning|800|600|332|22|#7A7498|0|0|Planning the pathway
+journey-03-planning|800|600|574|16|#BFB4E4|0|4|PLACEHOLDER
+journey-04-treatment|800|600|298|34|#574896|1|0|Stage 04
+journey-04-treatment|800|600|332|22|#7A7498|0|0|The treatment room
+journey-04-treatment|800|600|574|16|#BFB4E4|0|4|PLACEHOLDER
+journey-05-aftercare|800|600|298|34|#574896|1|0|Stage 05
+journey-05-aftercare|800|600|332|22|#7A7498|0|0|Aftercare and review
+journey-05-aftercare|800|600|574|16|#BFB4E4|0|4|PLACEHOLDER
+og-default|1200|630|309|20|#574896|1|0|Vathraja Facial Chambers
+og-default|1200|630|335|13|#7A7498|0|0|Social share image
+og-default|1200|630|608|11|#BFB4E4|0|3|PLACEHOLDER IMAGE
+doctor-anushan-madhushanka|600|750|373|26|#574896|1|0|Dr Anushan Madhushanka
+doctor-anushan-madhushanka|600|750|405|17|#7A7498|0|0|Consultant OMFS
+doctor-anushan-madhushanka|600|750|724|14|#BFB4E4|0|4|PLACEHOLDER PORTRAIT
+doctor-dilan-fernando|600|750|373|26|#574896|1|0|Dr Dilan Fernando
+doctor-dilan-fernando|600|750|405|17|#7A7498|0|0|Consultant OMFS
+doctor-dilan-fernando|600|750|724|14|#BFB4E4|0|4|PLACEHOLDER PORTRAIT
+doctor-dulini-liyanagama|600|750|373|26|#574896|1|0|Dr Dulini Liyanagama
+doctor-dulini-liyanagama|600|750|405|17|#7A7498|0|0|Consultant Dermatologist
+doctor-dulini-liyanagama|600|750|724|14|#BFB4E4|0|4|PLACEHOLDER PORTRAIT
+doctor-kavinda-nanayakkara|600|750|373|26|#574896|1|0|Dr Kavinda Nanayakkara
+doctor-kavinda-nanayakkara|600|750|405|17|#7A7498|0|0|Consultant Dermatologist
+doctor-kavinda-nanayakkara|600|750|724|14|#BFB4E4|0|4|PLACEHOLDER PORTRAIT
+doctor-madhubhani-dissanayake|600|750|373|26|#574896|1|0|Dr Madhubhani Dissanayake
+doctor-madhubhani-dissanayake|600|750|405|17|#7A7498|0|0|Dental Surgeon
+doctor-madhubhani-dissanayake|600|750|724|14|#BFB4E4|0|4|PLACEHOLDER PORTRAIT

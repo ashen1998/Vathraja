@@ -1,0 +1,145 @@
+<!-- ============================== HERO ============================== -->
+<section class="page-hero page-hero--plain" data-hero>
+  <div class="shell">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li>Contact and Booking</li>
+      </ol>
+    </nav>
+    <span class="eyebrow hero__eyebrow">Contact and appointment booking</span>
+    <h1 class="hero__title">Request a Consultation</h1>
+    <div class="hero__copy measure">
+      <p class="lead">Tell us what you would like help with. Our team will contact you to confirm the most suitable consultation pathway.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FORM ============================= -->
+<section class="section section--tight">
+  <div class="shell split">
+    <!-- Contact details stay pinned while the form scrolls beside them (>=940px) -->
+    <div class="split__sticky" data-reveal="right">
+      <div class="contact-actions mb-6">
+        <a class="btn" href="tel:+94112345678" data-track="cta_call" data-track-label="Contact page">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          Call the clinic
+        </a>
+        <a class="btn btn--ghost" href="https://wa.me/94112345678" data-track="cta_whatsapp" data-track-label="Contact page">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.9L2 22l5.25-1.5A9.9 9.9 0 1 0 12.04 2Zm0 18.1a8.2 8.2 0 0 1-4.18-1.14l-.3-.18-3.1.89.9-3.03-.2-.31a8.2 8.2 0 1 1 6.88 3.77Z"/></svg>
+          WhatsApp us
+        </a>
+      </div>
+
+      <h2>Visit the chambers</h2>
+      <ul class="info-list mt-5">
+        <li>
+          <span class="icon-tile" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          </span>
+          <span><strong>Vathraja Facial Chambers</strong><br>One Galle Face<br>Colombo, Sri Lanka</span>
+        </li>
+        <li>
+          <span class="icon-tile" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          </span>
+          <span><a href="tel:+94112345678" data-track="cta_call" data-track-label="Contact details">+94 11 234 5678</a><br><a href="mailto:hello@vathraja.lk" data-track="cta_email" data-track-label="Contact details">hello@vathraja.lk</a></span>
+        </li>
+        <li>
+          <span class="icon-tile" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          </span>
+          <span><strong>Consultation hours</strong><br>Monday to Saturday, 9.00am &ndash; 7.00pm<br>By appointment only</span>
+        </li>
+      </ul>
+
+      <div class="note mt-6">
+        <p><strong>Urgent concerns.</strong> This form is not monitored continuously. If you have an urgent medical concern, or a reaction following a treatment, please call the clinic directly rather than waiting for a reply.</p>
+      </div>
+    </div>
+
+    <div data-reveal="left">
+      <div class="form-card">
+        <h2 class="mb-5">Request a Consultation</h2>
+        <!-- Campaign source (utm_*) is captured by js/nav.js and attached on submit -->
+        <form class="form-grid form-grid--2" data-consult-form data-redirect="thank-you.html" novalidate>
+          <input type="hidden" name="formSource" value="Contact and Booking page">
+
+          <div class="field">
+            <label for="cb-name">Name <span class="req" aria-hidden="true">*</span></label>
+            <input class="input" id="cb-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="cb-mobile">Mobile number <span class="req" aria-hidden="true">*</span></label>
+            <input class="input" id="cb-mobile" name="mobile" type="tel" autocomplete="tel" required>
+            <span class="hint">Include the country code if you are outside Sri Lanka.</span>
+          </div>
+          <div class="field field--full">
+            <label for="cb-email">Email</label>
+            <input class="input" id="cb-email" name="email" type="email" autocomplete="email">
+          </div>
+          <div class="field field--full">
+            <label for="cb-service">Preferred service <span class="req" aria-hidden="true">*</span></label>
+            <select class="select" id="cb-service" name="service" required>
+              <option value="">Please choose</option>
+              <option>Danthaja In-House Aligners</option>
+              <option>Premium Invisalign</option>
+              <option>Clear Aligner Assessment</option>
+              <option>Dermatology Consultation</option>
+              <option>Facial Aesthetics Consultation</option>
+              <option>Injectables Suitability Assessment</option>
+              <option>Face and Smile Plan</option>
+              <option>Other</option>
+            </select>
+            <span class="hint">Not sure? Choose the closest option &mdash; we will guide you to the right pathway.</span>
+          </div>
+          <div class="field">
+            <label for="cb-date">Preferred date</label>
+            <input class="input" id="cb-date" name="preferredDate" type="date">
+          </div>
+          <div class="field">
+            <label for="cb-time">Preferred time</label>
+            <input class="input" id="cb-time" name="preferredTime" type="time">
+          </div>
+          <div class="field field--full">
+            <label for="cb-message">Message</label>
+            <textarea class="textarea" id="cb-message" name="message" rows="5" placeholder="Tell us briefly what you would like help with."></textarea>
+          </div>
+          <div class="field field--full">
+            <div class="checkbox">
+              <input id="cb-consent" name="consent" type="checkbox" required>
+              <label for="cb-consent">I agree to be contacted by the clinic about my enquiry and understand that treatment recommendations require professional consultation.</label>
+            </div>
+          </div>
+          <div class="field field--full">
+            <p class="form-error" data-form-error role="alert"></p>
+            <button class="btn btn--block btn--lg" type="submit" data-track="form_submit" data-track-label="Contact and Booking page">Request a Consultation</button>
+            <p class="disclaimer mt-4">Submitting this form is a request, not a confirmed appointment. Treatment outcomes vary by individual and require professional consultation.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FINDING US ========================= -->
+<section class="section section--cream">
+  <div class="shell split split--media-left">
+    <div class="feature__media" data-reveal="right">
+      <!-- TODO: replace with an embedded map or a photograph of the entrance -->
+      <div class="ph ph--wide">
+        <p class="ph__label">Map placeholder &mdash; One Galle Face, Colombo</p>
+      </div>
+    </div>
+    <div data-reveal="left">
+      <span class="eyebrow eyebrow--plain">Finding us</span>
+      <h2>At One Galle Face, Colombo</h2>
+      <p>Vathraja Facial Chambers sits within the Danthaja and Vathraja dentofacial aesthetics destination at One Galle Face. Appointments are private and scheduled, so please arrive a few minutes early rather than waiting in a shared area.</p>
+      <ul class="check-list mt-5">
+        <li>Appointment-only, with private consultation rooms</li>
+        <li>Parking available at One Galle Face</li>
+        <li>Accessible entry from the main concourse</li>
+      </ul>
+    </div>
+  </div>
+</section>
